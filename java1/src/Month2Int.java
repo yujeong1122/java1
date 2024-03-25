@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Month2Int {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		String month;
 		
 		System.out.println("월의 이름을 입력하시오");
-		month = scan.next();
+		month = input.next();
 		
 		switch (month)
 		{
